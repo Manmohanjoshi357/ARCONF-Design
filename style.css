@@ -1,0 +1,355 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+html,body{
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+#main{
+	height: 100vh;
+	width:100%;
+	/* background-color: #E1C3A8; */
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+#container{
+	
+	height: 95vh;
+	width: 90%;
+	background-color:#05121F;
+	margin-top:22px;
+	margin-left: 70px;
+	position:relative;
+	display: flex;
+	overflow: hidden;
+	
+
+}
+#box1{
+	height:100%;
+	width:63%;
+	/* background-color: green; */
+	position:relative;
+	
+
+
+}
+
+#img1{
+	height:220px;
+	width:220px;
+	background-color: red;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 50%;
+	background-image: url("https://media.istockphoto.com/id/1129342305/photo/enjoying-his-favorite-music.jpg?s=612x612&w=0&k=20&c=QD4u8m0IgA8FYRhPKTKCTU8AJtEys-qqS5yw-axUNV4=");
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	top:10%;
+	left:10%;
+
+}
+
+#img2{
+	height:220px;
+	width:220px;
+	background-color: red;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
+	background-image: url("https://media.istockphoto.com/id/1171916173/photo/photo-of-attractive-charming-cute-nice-millennial-youngster-girlfriend-admiring-something.jpg?s=612x612&w=0&k=20&c=H_SSpbq4YBRCS4xSRU_0fvoq9CyUEQc1J8ZM7IbWZaA=");
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	bottom:10%;
+	right:10%;
+
+}
+
+h4{
+	color:#F1F1F1;
+	font-size: 120px;
+	font-family: sans-serif;
+	font-weight: 550;
+}
+#one{
+	position: absolute;
+	top:29%;
+	left:34%
+}
+#two{
+	position: absolute;
+	top:45%;
+	left:22%
+
+}
+#three{
+	position: absolute;
+	top:61%;
+	left:29%
+
+}
+#circle1{
+	height: 45px;
+	width: 45px;
+	background-color:#EF5D50;
+	border-radius: 50%;
+	position: absolute;
+	top:28.9%;
+	left:53%;
+}
+
+#date{
+	
+	background-color:#A5AAAE;
+	position: absolute;
+	top:87.1%;
+	left:7.4%;
+	padding: 1px 4px;	
+	z-index: 100;
+
+}
+#time{
+	
+	background-color: #AC729F;
+	position: absolute;
+	top:90%;
+	left:12%;
+	padding: 1px 3px;	
+}
+h1{
+	color: #F1F1F1;
+	font-family:sans-serif;
+	font-weight: 700;
+	position: absolute;
+	right:120px;
+	font-size: 25px;
+	top:25px;
+	
+}
+
+#logo{
+	position: absolute;
+	top:22px;
+	color: #F1F1F1;
+	right:45px;
+}
+#box2{
+	height: 100%;
+	width:37%;
+	/* background-color: rgb(162, 202, 203); */
+	position: relative;
+	/* padding-right: 10px; */
+	padding-top: 8.5px;
+
+	
+	
+}
+#pic1{
+	height:220px;
+	width:464px;
+	background-color: #08889B;
+	position: relative;
+	
+}
+#pic2{
+	height:220px;
+	width:464px;
+	background-color:#6343EB;
+	margin-top: 8.5px;
+	position: relative;
+}
+#pic3{
+	height:220px;
+	width:464px;
+	background-color:#EE5C4F;
+	margin-top: 8.5px;
+	position: relative;
+}
+#pic1 #div1{
+	height:90%;
+	width: 30%;
+	background-color: #8c8089;
+	position: absolute;
+	top:6%;
+	left:3%;
+	border-top-left-radius:80px;
+	border-top-right-radius:80px ;
+	background-image: url("https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	object-fit: cover;
+}
+#pic1 h1{
+	position: absolute;
+	right: 190px;
+	font-size: 18px;
+	top:18px;
+	font-family: sans-serif;
+}
+#pic1 h2{
+	position: absolute;
+	right: 160px;
+	font-size:22px;
+	top:60px;
+	font-family: sans-serif;
+	color:#C8F5F5;
+	font-weight: 600;
+}
+#pic1 button{
+	position: absolute;
+	top: 85%;
+	right:8%;
+	padding: 3px 8px;
+	background-color:#EAD044;
+	color: #463d14;
+	font-weight: 530;
+	outline: hidden;
+	border: 1px solid;
+}
+#pic1 #send{
+     position: absolute;
+	 top:79%;
+	 right:3%;
+}
+#pic1 #QR{
+	position: absolute;
+	top:79%;
+	right:55%;
+}
+#pic1 h5{
+	position: absolute;
+	font-family: sans-serif;
+	color:#C8F5F5;
+	top:85%;
+	right:42%;
+	font-size: 12px;
+}
+
+#pic2 #div1{
+	height:90%;
+	width: 30%;
+	background-color:rgb(136, 136, 181);
+	position: absolute;
+	top:6%;
+	left:3%;
+	border-top-left-radius:80px;
+	border-top-right-radius:80px ;
+	background-image: url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTg4fHxsYXB0b3B8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	object-fit: cover;
+}
+#pic2 h1{
+	position: absolute;
+	right: 190px;
+	font-size: 18px;
+	top:18px;
+	font-family: sans-serif;
+}
+#pic2 h2{
+	position: absolute;
+	right: 140px;
+	font-size:22px;
+	top:60px;
+	font-family: sans-serif;
+	color:#C8F5F5;
+	font-weight: 600;
+}
+#pic2 button{
+	position: absolute;
+	top: 85%;
+	right:8%;
+	padding: 3px 8px;
+	background-color:#CC92B1;
+	color: #463d14;
+	font-weight: 530;
+	outline: hidden;
+	border: 1px solid;
+}
+#pic2 #send{
+     position: absolute;
+	 top:79%;
+	 right:3%;
+}
+#pic2 #QR{
+	position: absolute;
+	top:79%;
+	right:55%;
+}
+#pic2 h5{
+	position: absolute;
+	font-family: sans-serif;
+	color:#C8F5F5;
+	top:85%;
+	right:42%;
+	font-size: 12px;
+}
+
+#pic3 #div1{
+	height:90%;
+	width: 30%;
+	background-color: #8c8089;
+	position: absolute;
+	top:6%;
+	left:3%;
+	border-top-left-radius:80px;
+	border-top-right-radius:80px ;
+	background-image: url("https://images.unsplash.com/photo-1631377894816-1f95828c2fcf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80");
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	object-fit: cover;
+}
+#pic3 h1{
+	position: absolute;
+	right: 190px;
+	font-size: 18px;
+	top:18px;
+	font-family: sans-serif;
+}
+#pic3 h2{
+	position: absolute;
+	right: 160px;
+	font-size:22px;
+	top:60px;
+	font-family: sans-serif;
+	color:#C8F5F5;
+	font-weight: 600;
+}
+#pic3 button{
+	position: absolute;
+	top: 85%;
+	right:8%;
+	padding: 3px 8px;
+	background-color:rgb(107, 189, 247);
+	color: #463d14;
+	font-weight: 530;
+	outline: hidden;
+	border: 1px solid;
+}
+#pic3 #send{
+     position: absolute;
+	 top:79%;
+	 right:3%;
+}
+#pic3 #QR{
+	position: absolute;
+	top:79%;
+	right:55%;
+}
+#pic3 h5{
+	position: absolute;
+	font-family: sans-serif;
+	color:#C8F5F5;
+	top:85%;
+	right:42%;
+	font-size: 12px;
+}
